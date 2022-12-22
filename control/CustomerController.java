@@ -71,7 +71,7 @@ public class CustomerController {
 	}
 	
 	public static void listPayments(String ID) {
-		System.out.println("ID" + "        " + "Service" + "        " + "Amount");
+		System.out.println("ID" + "        " + "Service" + "         " + "Amount");
 	    ArrayList<Payment> payments = getPayments(ID);
 	    for (Payment element : payments) {
 	  		System.out.println(element.getID() + "        " + element.getService() + "        " + element.getamount());
